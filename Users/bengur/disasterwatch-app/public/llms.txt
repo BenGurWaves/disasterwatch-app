@@ -1,0 +1,28 @@
+# DisasterWatch - FEMA Disaster Declaration Monitoring Tool
+
+DisasterWatch is a web application that helps property managers, landlords, insurance agents, and contractors monitor FEMA disaster declarations in their operational areas.
+
+## Key Features:
+- Real-time monitoring of FEMA disaster declarations
+- Track counties across multiple states 
+- Email and SMS alerts when new disasters are declared
+- Access to official FEMA record information and assistance programs
+- 3-county free tier, unlimited counties on paid plan
+
+## Main Sections:
+- Home page with county selector
+- Dashboard showing watched counties and alert feed
+- Pricing page with free and paid tiers
+- About page explaining the service and its usage
+
+## Target Keywords:
+FEMA disaster declaration alert
+disaster declaration tracker by county
+FEMA assistance program alerts
+property manager disaster monitoring tool
+
+The site uses:
+- React + Tailwind CSS for front-end
+- Supabase for user authentication and data storage  
+- Stripe for payment processing
+- FEMA OpenFEMA API for disaster data
