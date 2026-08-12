@@ -4,8 +4,8 @@
   "description": "DisasterWatch - FEMA disaster declaration monitoring tool",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Building DisasterWatch application...'",
-    "start": "echo 'Starting Development Server...'"
+    "build": "mkdir -p build && cp -r public/* build/ && echo 'Build complete'",
+    "start": "echo 'Development server starting...'"
   },
   "keywords": ["fema", "disaster", "alert", "monitoring"],
   "author": "DisasterWatch Team",

@@ -1,0 +1,11 @@
+name = "disasterwatch-app"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+output = "build"
+
+[[ routes ]]
+pattern = "disasterwatch.example.com/*"
+custom_domain = true
