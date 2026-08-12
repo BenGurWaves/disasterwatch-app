@@ -1,17 +1,18 @@
 {
   "name": "disasterwatch-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "DisasterWatch - FEMA disaster declaration monitoring tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'Building DisasterWatch application...'",
+    "start": "echo 'Starting Development Server...'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["fema", "disaster", "alert", "monitoring"],
+  "author": "DisasterWatch Team",
+  "license": "MIT",
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0"
   }
 }
